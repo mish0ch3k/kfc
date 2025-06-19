@@ -2,9 +2,9 @@ from genetic_algorithm.utils import get_best_solution, should_terminate
 
 def test_get_best_solution():
     cities = {
-        "0": [0, 0],
-        "1": [3, 4],
-        "2": [0, 3]
+    0: [0, 0],
+    1: [3, 4],
+    2: [0, 3]
     }
     population = [[0, 1, 2], [2, 1, 0]]
     best, dist = get_best_solution(population, cities)

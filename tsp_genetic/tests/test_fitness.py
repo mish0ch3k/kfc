@@ -2,8 +2,8 @@ from genetic_algorithm.fitness import route_length, evaluate_population
 
 def test_route_length_simple():
     cities = {
-        "0": [0, 0],
-        "1": [3, 4]
+    0: [0, 0],
+    1: [3, 4]
     }
     route = [0, 1]
     dist = route_length(route, cities)
@@ -11,8 +11,8 @@ def test_route_length_simple():
 
 def test_evaluate_population():
     cities = {
-        "0": [0, 0],
-        "1": [3, 4]
+    0: [0, 0],
+    1: [3, 4]
     }
     population = [[0, 1], [1, 0]]
     fitness = evaluate_population(population, cities)

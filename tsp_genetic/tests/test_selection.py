@@ -4,7 +4,7 @@ from genetic_algorithm.fitness import evaluate_population
 
 def test_selection_methods():
     cities = {
-        str(i): [i, 0] for i in range(5)
+    i: [i, 0] for i in range(5)
     }
     population = initialize_population(10, 5)
     fitness = evaluate_population(population, cities)
